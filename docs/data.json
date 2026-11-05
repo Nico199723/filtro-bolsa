@@ -1,0 +1,117 @@
+{
+ "actualizado": "05/11/2026 16:53",
+ "indicadores": [
+  {
+   "nombre": "SOFR - IORB",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "EFFR - IORB",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "Reservas bancarias",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "TGA (cuenta del Tesoro)",
+   "valor": 938.208,
+   "fecha": "2026-11-03",
+   "estado": "atencion",
+   "error": null
+  },
+  {
+   "nombre": "ON RRP (reverse repo)",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "Uso del Standing Repo Facility",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "Spread 10Y - 2Y",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "Spread 10Y - 3M",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "Spread High Yield (OAS)",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "Spread Investment Grade (OAS)",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "Spread CCC y menores (OAS)",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "VIX",
+   "valor": null,
+   "fecha": null,
+   "estado": "sin_dato",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "nombre": "MOVE",
+   "valor": 99.84420013427734,
+   "fecha": "2026-11-05",
+   "estado": "normal",
+   "error": null
+  },
+  {
+   "nombre": "VIXEQ (vol. de acciones individuales)",
+   "valor": 41.21,
+   "fecha": "2026-11-04",
+   "estado": "atencion",
+   "error": null
+  },
+  {
+   "nombre": "Equal weight - cap-weight, 12 meses",
+   "valor": 7.740106793049706,
+   "fecha": "2026-11-05",
+   "estado": "normal",
+   "error": null
+  },
+  {
+   "nombre": "Equal weight - cap-weight, 3 años",
+   "valor": -13.795987859022386,
+   "fecha": "2026-11-05",
+   "estado": "atencion",
+   "error": null
+  }
+ ]
+}
