@@ -18,6 +18,10 @@ DEMO = os.environ.get("DEMO") == "1"
 UA = {"User-Agent": "Mozilla/5.0 (filtro-compra)"}
 
 
+from functools import lru_cache
+
+
+@lru_cache(maxsize=None)
 def yahoo(sym):
     if DEMO:
         r = random.Random(sum(map(ord, sym)))
@@ -29,7 +33,7 @@ def yahoo(sym):
             d += timedelta(days=1)
         return out
     u = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(sym)}?range=5y&interval=1d"
-    with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30) as r:
+    with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=20) as r:
         res = json.loads(r.read())["chart"]["result"][0]
     out = [(datetime.fromtimestamp(t, timezone.utc).date().isoformat(), float(c))
            for t, c in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]) if c is not None]

@@ -3,6 +3,8 @@
 Uso: python update.py   (genera docs/index.html y docs/data.json)
      DEMO=1 python update.py   (usa valores de ejemplo, sin red)"""
 import csv, io, json, os, urllib.parse, urllib.request
+from concurrent.futures import ThreadPoolExecutor, wait
+from functools import lru_cache
 from datetime import date, datetime, timedelta, timezone
 from html import escape
 
@@ -10,11 +12,12 @@ DEMO = os.environ.get("DEMO") == "1"
 UA = {"User-Agent": "Mozilla/5.0 (tablero-estres)"}
 
 
-def get(url, timeout=30):
+def get(url, timeout=20):
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
 
 
+@lru_cache(maxsize=None)
 def fred(series, days=1200):
     start = (date.today() - timedelta(days=days)).isoformat()
     txt = get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}&cosd={start}")
@@ -190,21 +193,29 @@ def gradient(i):
     return "linear-gradient(90deg," + ",".join(f"{c} {a:.1f}%,{c} {b:.1f}%" for c, a, b in st) + ")"
 
 
+def fetch(i):
+    if DEMO:
+        if i["demo"] is None: raise ValueError("sin dato")
+        return date.today().isoformat(), i["demo"]
+    return i["get"]()[-1]
+
+
 def collect():
+    ex = ThreadPoolExecutor(max_workers=8)  # todas las fuentes en paralelo
+    futs = [ex.submit(fetch, i) for i in IND]
+    wait(futs, timeout=120)
     out = []
-    for i in IND:
+    for i, f in zip(IND, futs):
         r = dict(i=i, value=None, date=None, status="sin_dato", err=None)
         try:
-            if DEMO:
-                if i["demo"] is None: raise ValueError("sin dato")
-                d, v = date.today().isoformat(), i["demo"]
-            else:
-                d, v = i["get"]()[-1]
+            if not f.done(): raise TimeoutError("tiempo agotado")
+            d, v = f.result()
             r.update(value=v, date=d, status=status(v, i))
         except Exception as e:
             r["err"] = f"{type(e).__name__}: {e}"
             print(f"[aviso] {i['name']}: {r['err']}")
         out.append(r)
+    ex.shutdown(wait=False, cancel_futures=True)
     return out
 
 
