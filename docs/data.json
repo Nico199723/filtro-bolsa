@@ -1,5 +1,5 @@
 {
- "actualizado": "06/11/2026 15:41",
+ "actualizado": "06/11/2026 23:09",
  "indicadores": [
   {
    "nombre": "SOFR - IORB",
@@ -24,8 +24,8 @@
   },
   {
    "nombre": "TGA (cuenta del Tesoro)",
-   "valor": 936.248,
-   "fecha": "2026-11-04",
+   "valor": 922.752,
+   "fecha": "2026-11-05",
    "estado": "atencion",
    "error": null
   },
@@ -87,7 +87,7 @@
   },
   {
    "nombre": "MOVE",
-   "valor": 93.03839874267578,
+   "valor": 92.77210235595703,
    "fecha": "2026-11-06",
    "estado": "normal",
    "error": null
@@ -101,14 +101,14 @@
   },
   {
    "nombre": "Equal weight - cap-weight, 12 meses",
-   "valor": 7.072192053612758,
+   "valor": 7.135134984530667,
    "fecha": "2026-11-06",
    "estado": "normal",
    "error": null
   },
   {
    "nombre": "Equal weight - cap-weight, 3 años",
-   "valor": -13.303429636491892,
+   "valor": -13.130532385619587,
    "fecha": "2026-11-06",
    "estado": "atencion",
    "error": null
