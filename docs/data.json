@@ -1,5 +1,5 @@
 {
- "actualizado": "11/11/2026 16:01",
+ "actualizado": "12/11/2026 00:13",
  "indicadores": [
   {
    "nombre": "SOFR - IORB",
@@ -94,21 +94,21 @@
   },
   {
    "nombre": "VIXEQ (vol. de acciones individuales)",
-   "valor": 44.11,
-   "fecha": "2026-11-10",
+   "valor": 42.0,
+   "fecha": "2026-11-11",
    "estado": "atencion",
    "error": null
   },
   {
    "nombre": "Equal weight - cap-weight, 12 meses",
-   "valor": 6.468970731155466,
+   "valor": 6.780608259982213,
    "fecha": "2026-11-11",
    "estado": "normal",
    "error": null
   },
   {
    "nombre": "Equal weight - cap-weight, 3 años",
-   "valor": -13.25927792627879,
+   "valor": -12.762107922103528,
    "fecha": "2026-11-11",
    "estado": "atencion",
    "error": null
