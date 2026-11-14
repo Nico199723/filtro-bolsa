@@ -1,135 +1,135 @@
 {
- "actualizado": "13/11/2026 15:57",
+ "actualizado": "13/11/2026 23:35",
  "semaforo": "bad",
  "motivo": [
   "SPY, QQQ por debajo de su SMA 50"
  ],
- "vix": 19.469999313354492,
+ "vix": 19.299999237060547,
  "errores": [],
  "tickers": {
   "SPY": [
    {
     "n": "Precio vs SMA 10",
-    "v": "753.27 vs 751.44 (+0.2%)",
+    "v": "754.37 vs 751.55 (+0.4%)",
     "st": "ok"
    },
    {
     "n": "Precio vs SMA 20",
-    "v": "753.27 vs 758.97 (-0.8%)",
+    "v": "754.37 vs 759.02 (-0.6%)",
     "st": "warn"
    },
    {
     "n": "Precio vs SMA 50",
-    "v": "753.27 vs 764.41 (-1.5%)",
+    "v": "754.37 vs 764.43 (-1.3%)",
     "st": "bad"
    },
    {
     "n": "Precio vs SMA 200",
-    "v": "753.27 vs 731.91 (+2.9%)",
+    "v": "754.37 vs 731.92 (+3.1%)",
     "st": "ok"
    },
    {
     "n": "RSI 14 diario",
-    "v": "46.5",
+    "v": "47.1",
     "st": "warn"
    },
    {
     "n": "MACD 12/26/9 diario",
-    "v": "MACD -4.21 · señal -4.11 · hist -0.10",
+    "v": "MACD -4.12 · señal -4.09 · hist -0.03",
     "st": "bad"
    },
    {
     "n": "RSI 21 semanal",
-    "v": "55.1",
+    "v": "55.3",
     "st": "ok"
    },
    {
     "n": "MACD 6/13/5 semanal",
-    "v": "MACD -2.62 · señal +0.43 · hist -3.05",
+    "v": "MACD -2.46 · señal +0.49 · hist -2.95",
     "st": "bad"
    },
    {
     "n": "RSI 21 mensual",
-    "v": "67.9",
+    "v": "68.1",
     "st": "ok"
    }
   ],
   "QQQ": [
    {
     "n": "Precio vs SMA 10",
-    "v": "679.07 vs 677.32 (+0.3%)",
+    "v": "679.89 vs 677.40 (+0.4%)",
     "st": "ok"
    },
    {
     "n": "Precio vs SMA 20",
-    "v": "679.07 vs 695.41 (-2.3%)",
+    "v": "679.89 vs 695.45 (-2.2%)",
     "st": "warn"
    },
    {
     "n": "Precio vs SMA 50",
-    "v": "679.07 vs 717.85 (-5.4%)",
+    "v": "679.89 vs 717.87 (-5.3%)",
     "st": "bad"
    },
    {
     "n": "Precio vs SMA 200",
-    "v": "679.07 vs 682.23 (-0.5%)",
+    "v": "679.89 vs 682.24 (-0.3%)",
     "st": "bad"
    },
    {
     "n": "RSI 14 diario",
-    "v": "42.6",
+    "v": "42.8",
     "st": "warn"
    },
    {
     "n": "MACD 12/26/9 diario",
-    "v": "MACD -12.98 · señal -12.84 · hist -0.14",
+    "v": "MACD -12.92 · señal -12.83 · hist -0.09",
     "st": "bad"
    },
    {
     "n": "RSI 21 semanal",
-    "v": "49.5",
+    "v": "49.6",
     "st": "warn"
    },
    {
     "n": "MACD 6/13/5 semanal",
-    "v": "MACD -11.54 · señal -4.60 · hist -6.94",
+    "v": "MACD -11.42 · señal -4.56 · hist -6.86",
     "st": "bad"
    },
    {
     "n": "RSI 21 mensual",
-    "v": "61.2",
+    "v": "61.3",
     "st": "ok"
    }
   ],
   "NVDA": [
    {
     "n": "Precio vs SMA 10",
-    "v": "162.66 vs 182.73 (-11.0%)",
+    "v": "162.85 vs 182.75 (-10.9%)",
     "st": "warn"
    },
    {
     "n": "Precio vs SMA 20",
-    "v": "162.66 vs 198.68 (-18.1%)",
+    "v": "162.85 vs 198.69 (-18.0%)",
     "st": "warn"
    },
    {
     "n": "Precio vs SMA 50",
-    "v": "162.66 vs 214.64 (-24.2%)",
+    "v": "162.85 vs 214.65 (-24.1%)",
     "st": "bad"
    },
    {
     "n": "Precio vs SMA 200",
-    "v": "162.66 vs 204.19 (-20.3%)",
+    "v": "162.85 vs 204.19 (-20.2%)",
     "st": "bad"
    },
    {
     "n": "RSI 14 diario",
-    "v": "24.8",
+    "v": "24.9",
     "st": "warn"
    },
    {
     "n": "MACD 12/26/9 diario",
-    "v": "MACD -14.25 · señal -10.11 · hist -4.13",
+    "v": "MACD -14.23 · señal -10.11 · hist -4.12",
     "st": "bad"
    },
    {
@@ -139,7 +139,7 @@
    },
    {
     "n": "MACD 6/13/5 semanal",
-    "v": "MACD -10.77 · señal -3.92 · hist -6.84",
+    "v": "MACD -10.74 · señal -3.91 · hist -6.83",
     "st": "bad"
    },
    {
