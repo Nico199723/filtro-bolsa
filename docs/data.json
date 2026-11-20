@@ -1,5 +1,5 @@
 {
- "actualizado": "20/11/2026 00:38",
+ "actualizado": "20/11/2026 16:26",
  "indicadores": [
   {
    "nombre": "SOFR - IORB",
@@ -87,9 +87,9 @@
   },
   {
    "nombre": "MOVE",
-   "valor": 96.03630065917969,
-   "fecha": "2026-11-19",
-   "estado": "normal",
+   "valor": 103.77899932861328,
+   "fecha": "2026-11-20",
+   "estado": "atencion",
    "error": null
   },
   {
@@ -101,16 +101,16 @@
   },
   {
    "nombre": "Equal weight - cap-weight, 12 meses",
-   "valor": 7.382158140313444,
-   "fecha": "2026-11-19",
+   "valor": 8.879164553627671,
+   "fecha": "2026-11-20",
    "estado": "normal",
    "error": null
   },
   {
    "nombre": "Equal weight - cap-weight, 3 años",
-   "valor": -11.315124745185368,
-   "fecha": "2026-11-19",
-   "estado": "atencion",
+   "valor": -8.538972285870393,
+   "fecha": "2026-11-20",
+   "estado": "normal",
    "error": null
   }
  ]
