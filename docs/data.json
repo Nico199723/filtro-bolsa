@@ -1,5 +1,5 @@
 {
- "actualizado": "19/11/2026 16:45",
+ "actualizado": "20/11/2026 00:38",
  "indicadores": [
   {
    "nombre": "SOFR - IORB",
@@ -24,9 +24,9 @@
   },
   {
    "nombre": "TGA (cuenta del Tesoro)",
-   "valor": 921.222,
-   "fecha": "2026-11-17",
-   "estado": "atencion",
+   "valor": 892.31,
+   "fecha": "2026-11-18",
+   "estado": "normal",
    "error": null
   },
   {
@@ -87,28 +87,28 @@
   },
   {
    "nombre": "MOVE",
-   "valor": 94.9280014038086,
+   "valor": 96.03630065917969,
    "fecha": "2026-11-19",
    "estado": "normal",
    "error": null
   },
   {
    "nombre": "VIXEQ (vol. de acciones individuales)",
-   "valor": 45.16,
-   "fecha": "2026-11-18",
+   "valor": 46.87,
+   "fecha": "2026-11-19",
    "estado": "estres",
    "error": null
   },
   {
    "nombre": "Equal weight - cap-weight, 12 meses",
-   "valor": 7.2247830879838215,
+   "valor": 7.382158140313444,
    "fecha": "2026-11-19",
    "estado": "normal",
    "error": null
   },
   {
    "nombre": "Equal weight - cap-weight, 3 años",
-   "valor": -11.642939543559304,
+   "valor": -11.315124745185368,
    "fecha": "2026-11-19",
    "estado": "atencion",
    "error": null
