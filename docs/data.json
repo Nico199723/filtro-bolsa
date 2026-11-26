@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026 01:16",
+ "actualizado": "26/11/2026 17:43",
  "indicadores": [
   {
    "nombre": "SOFR - IORB",
@@ -108,7 +108,7 @@
   },
   {
    "nombre": "Equal weight - cap-weight, 3 años",
-   "valor": -9.06372863410394,
+   "valor": -9.063734098363362,
    "fecha": "2026-11-25",
    "estado": "normal",
    "error": null

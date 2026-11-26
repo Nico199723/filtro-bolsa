@@ -1,10 +1,10 @@
 {
- "actualizado": "26/11/2026 01:16",
+ "actualizado": "26/11/2026 17:43",
  "semaforo": "bad",
  "motivo": [
   "SPY, QQQ por debajo de su SMA 50"
  ],
- "vix": 28.290000915527344,
+ "vix": 26.799999237060547,
  "errores": [],
  "tickers": {
   "SPY": [
