@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026 01:24",
+ "actualizado": "27/11/2026 17:29",
  "indicadores": [
   {
    "nombre": "SOFR - IORB",
@@ -24,10 +24,10 @@
   },
   {
    "nombre": "TGA (cuenta del Tesoro)",
-   "valor": null,
-   "fecha": null,
-   "estado": "sin_dato",
-   "error": "TimeoutError: The read operation timed out"
+   "valor": 958.39,
+   "fecha": "2026-11-24",
+   "estado": "atencion",
+   "error": null
   },
   {
    "nombre": "ON RRP (reverse repo)",
@@ -87,8 +87,8 @@
   },
   {
    "nombre": "MOVE",
-   "valor": 97.54000091552734,
-   "fecha": "2026-11-25",
+   "valor": 95.29519653320312,
+   "fecha": "2026-11-27",
    "estado": "normal",
    "error": null
   },
@@ -101,15 +101,15 @@
   },
   {
    "nombre": "Equal weight - cap-weight, 12 meses",
-   "valor": 8.542312678001739,
-   "fecha": "2026-11-25",
+   "valor": 8.155206871385712,
+   "fecha": "2026-11-27",
    "estado": "normal",
    "error": null
   },
   {
    "nombre": "Equal weight - cap-weight, 3 años",
-   "valor": -9.063689137074737,
-   "fecha": "2026-11-25",
+   "valor": -9.489757307764645,
+   "fecha": "2026-11-27",
    "estado": "normal",
    "error": null
   }
